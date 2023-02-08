@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -al . ../ /boot
- 
+echo -e "Current directory:\n$(ls -la .)\nParent of the working directory:\n$(ls -la ..)\n/boot directory:\n$(ls -la /boot)"
